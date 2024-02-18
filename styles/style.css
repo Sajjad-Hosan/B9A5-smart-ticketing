@@ -8,9 +8,3 @@
 .w-78{
     width: 310px;
 }
-.banner-img{
-    background: url('/images/banner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
