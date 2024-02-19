@@ -26,6 +26,7 @@ for (const seat of seats) {
     const seatName = seat.textContent;
     let seatAbl = totalSeatAbilable.textContent;
     if(seatBookNameLength < 4){
+      seat.classList.remove("bg-[#d0ebeb]", "text-black");
       seat.classList.add("bg-green-500", "text-white");
     }else{
       console.log('you can only');
